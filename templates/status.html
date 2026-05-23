@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Temperature Monitor</title>
+
+</head>
+
+<body>
+
+    <h1>Temperature Monitor</h1>
+
+    <h2>Current Temperature</h2>
+
+    <p>
+        <strong>Celsius:</strong>
+        {{ celsius }}
+    </p>
+
+    <p>
+        <strong>Fahrenheit:</strong>
+        {{ fahrenheit }}
+    </p>
+
+    <h2>Status</h2>
+
+    <p>{{ status }}</p>
+
+    <h2>Statistics</h2>
+
+    <p>
+        Average Temperature:
+        {{ average_temp }}
+    </p>
+
+    <p>
+        Maximum Temperature:
+        {{ max_temp }}
+    </p>
+
+    <p>
+        Minimum Temperature:
+        {{ min_temp }}
+    </p>
+
+    <h2>API</h2>
+
+    <p>
+        /data → returns temperature and status
+    </p>
+
+</body>
+
+</html>
